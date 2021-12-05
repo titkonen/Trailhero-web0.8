@@ -8,17 +8,14 @@ import infomaintenance from '../assets/Icon-info-maintenance.png';
 import spotstrails from '../assets/Icon-spots-trails.png';
 
 function WelcomeView() {
-
    return (
       <div>
          <img src={hero} className="hero-img" alt="Hero" />
-        
          <div className="module-container">
             <h1 className="module-title">What is TrailHero?</h1>
             <p className="module-ingress">TrailHero is bicycle data gathering and maintenance application. 
             Mark down easily your bicycle related data and keep update your bicycle maintenance schedules and task lists.</p>
          </div>
-
          <h1 className="module-title">Features</h1>
             <Row>
                <Col> 

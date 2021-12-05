@@ -3,9 +3,7 @@ import '../App.css';
 import './ContactsView.css';
 import { Container, Row } from 'react-bootstrap';
 
-
 function ContactsView() {
-
    return (
       <div>
          <Container>
