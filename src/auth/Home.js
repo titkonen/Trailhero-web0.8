@@ -5,17 +5,15 @@ import './Auth.css';
 import '../App.css';
 import '../components/Navbar.css';
 import Footer from "../components/Footer";
-
 // For Routing
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap'
-
 // Views 
 import MaintenanceData from '../Maintenance/MaintenanceData';
 import InfoData from '../Info/InfoData';
 import DiaryData from '../Diary/DiaryData';
 import NotesData from '../Notes/Notes';
-import HomeAppGrid from '../Views/HomeAppGrid';
+import Summary from '../Summary/Summary';
 import Spots from '../Spots/Spots';
 
 const Home = () => {
@@ -27,7 +25,7 @@ const Home = () => {
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav variant="pills" className="mr-auto">
-                     <LinkContainer to="/home"><Nav.Link>Home</Nav.Link></LinkContainer>
+                     <LinkContainer to="/summary"><Nav.Link>Summary</Nav.Link></LinkContainer>
                      <LinkContainer to="/spots"><Nav.Link>Spots</Nav.Link></LinkContainer>
                      <LinkContainer to="/bikediary"><Nav.Link>Bike Diary</Nav.Link></LinkContainer>
                      <LinkContainer to="/maintenance"><Nav.Link>Maintenance</Nav.Link></LinkContainer>
@@ -43,7 +41,7 @@ const Home = () => {
             {/* SWITCHER */}
             <Switch>
                {/* <Route exact path="/"><HomeContainer /></Route> */}
-               <Route path="/home"><HomeContainer /></Route>
+               <Route path="/summary"><SummaryContainer /></Route>
                <Route path="/spots"><SpotsContainer /></Route>
                <Route path="/bikediary"><BikeDiary /></Route>
                <Route path="/info"><Info /></Route>
@@ -51,6 +49,19 @@ const Home = () => {
                <Route path="/notes"><NotesData /></Route>
             </Switch>
 
+            {/* <div>
+               <h1>pöö</h1>
+               <h2>This is app dashboard</h2>
+               <h3>Here is quick links to the service</h3>
+               <Nav variant="pills" className="mr-auto">
+                     <LinkContainer to="/summary"><Nav.Link>Summary</Nav.Link></LinkContainer>
+                     <LinkContainer to="/spots"><Nav.Link>Spots</Nav.Link></LinkContainer>
+                     <LinkContainer to="/bikediary"><Nav.Link>Bike Diary</Nav.Link></LinkContainer>
+                     <LinkContainer to="/maintenance"><Nav.Link>Maintenance</Nav.Link></LinkContainer>
+                     <LinkContainer to="/notes"><Nav.Link>Notes</Nav.Link></LinkContainer>
+                     <LinkContainer to="/info"><Nav.Link>Info</Nav.Link></LinkContainer>
+                  </Nav>
+            </div> */}
          </div>
       </Router>
    );
@@ -58,13 +69,13 @@ const Home = () => {
 
 export default Home;
 
-function HomeContainer() {
+function SummaryContainer() {
    return (
       <div>
          <div className="header">
-            <h1 className="heading">Home</h1>
+            <h1 className="heading">Summary</h1>
             <div className="#">
-               <HomeAppGrid />
+               <Summary />
                <Footer />
             </div>
          </div>

@@ -18,6 +18,7 @@ const Login = ({ history }) => {
          await firebase
             .auth()
             .signInWithEmailAndPassword(email.value, password.value);
+         //After login pushes the user to this
          history.push("/");   
       }  catch (error) {
          alert (error);
@@ -40,6 +41,7 @@ const Login = ({ history }) => {
    const { currentUser } = useContext(AuthContext);
 
    if (currentUser) {
+      //Redirects user always this root folder
       return <Redirect to="/" />;
    }
 
@@ -84,7 +86,6 @@ const Login = ({ history }) => {
               
             </Container>
          </Jumbotron>
-
          <WelcomeView />
       </div>
    );
