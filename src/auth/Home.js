@@ -48,20 +48,6 @@ const Home = () => {
                <Route path="/maintenance"><Maintenance /></Route>
                <Route path="/notes"><NotesData /></Route>
             </Switch>
-
-            {/* <div>
-               <h1>pöö</h1>
-               <h2>This is app dashboard</h2>
-               <h3>Here is quick links to the service</h3>
-               <Nav variant="pills" className="mr-auto">
-                     <LinkContainer to="/summary"><Nav.Link>Summary</Nav.Link></LinkContainer>
-                     <LinkContainer to="/spots"><Nav.Link>Spots</Nav.Link></LinkContainer>
-                     <LinkContainer to="/bikediary"><Nav.Link>Bike Diary</Nav.Link></LinkContainer>
-                     <LinkContainer to="/maintenance"><Nav.Link>Maintenance</Nav.Link></LinkContainer>
-                     <LinkContainer to="/notes"><Nav.Link>Notes</Nav.Link></LinkContainer>
-                     <LinkContainer to="/info"><Nav.Link>Info</Nav.Link></LinkContainer>
-                  </Nav>
-            </div> */}
          </div>
       </Router>
    );
@@ -76,7 +62,7 @@ function SummaryContainer() {
             <h1 className="heading">Summary</h1>
             <div className="#">
                <Summary />
-               <Footer />
+               {/* <Footer /> */}
             </div>
          </div>
       </div>
