@@ -1,0 +1,42 @@
+.modal-body {
+   position: relative;
+   -ms-flex: 1 1 auto;
+   flex: 1 1 auto;
+   padding: 1rem;
+   height: 390px;
+ }
+
+ .textarea-style {
+  background-color: #eee;
+  width: 420px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+}
+ 
+ .info-container-title {
+   padding-left: 24px;
+ }
+ 
+ .info-container-button {
+   margin-left: 40px;
+ }
+
+ .mt-60 {
+  margin-top: 60px;
+}
+
+.read-list-info {
+  margin-top: -30px;
+}
+
+@media only screen and (max-width: 414px) {
+  .textarea-style {
+    width: 350px;
+  }
+
+  .modal-body { 
+    height: 500px;
+  }
+} 

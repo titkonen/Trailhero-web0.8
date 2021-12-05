@@ -1,1 +1,2 @@
-# Trailhero-web0.8
+# Trailhero-web0.6
+TrailHero-production version

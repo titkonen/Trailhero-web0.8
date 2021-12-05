@@ -1,0 +1,302 @@
+/* BRAND ELEMENTS */
+
+.logo-trailhero {
+  margin: 24px;
+}
+
+.logo {
+  color: #22FFFF;
+  margin-left: 16px;
+  background-color: #ccc; 
+  margin-top: -1px;
+  padding-top: 20px;
+}
+
+/* CONTAINERS */
+
+.table-container {
+  color: #000;
+  background-color: #fff;
+  margin: 0px 16px 8px 16px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.container-style {
+  /* background-color: tomato; */
+  /* top: -160px; */
+  position: inherit;
+}
+
+.header {
+  margin-top: -30px;
+  height: 120px;
+  width: 100%;
+  background-color: #1800FF; 
+}
+
+.blue {
+  background-color: #1800FF; 
+  height: 90px;
+}
+
+.app-navigation {
+  background-color: #1800FF;
+  height: 50px;
+  margin-top: 0px;
+}
+
+.sub-navigation-links {
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  float: right;
+}
+
+.add-bikedata {
+  background-color: #eee; 
+  height: 170px;
+}
+
+.navigation {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-top: 5px;
+}
+
+li {
+  float: left;
+}
+
+
+/* TEXT STYLING */
+
+.heading {
+  margin-left: 36px;
+  color: white;
+  font-size: 42px;
+  padding-top: 50px;
+}
+
+.module-title {
+  text-align: left;
+  font-size: 48px;
+  font-family: avenir, helvetica, arial;
+  font-weight: 900;
+  color: #000;
+  padding: 48px 0px 0px 100px;
+}
+
+.module-ingress {
+  text-align: left;
+  font-size: 24px;
+  font-family: avenir, helvetica, arial;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000;
+  padding: 48px 0px 0px 100px;
+}
+
+.subheading {
+  padding-top: 32px;
+  color: #555;
+  margin-bottom: -4px;
+}
+
+.subheading-info {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #555;
+  margin-left: 16px;
+}
+
+.subheading-center {
+  margin: auto;
+  color: #555;
+  text-align: center;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+/* SPACING */
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.bottom-spacer {
+  margin-top: 100px;
+}
+
+/* BUTTONS */
+.primary-button-styling {
+  margin: 50px 40px 60px 40px;
+}
+
+.secondary-button-position {
+  background-color: brown;
+}
+
+.button-blue {
+  color: #1E88E5;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-red {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.crud-buttons {
+  margin: 0px 0px 0px 16px;
+}
+
+/* TABLELIST */
+.tablelist-bg {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 800px;
+  padding: 12px 12px 0px 12px;
+  margin: 20px 0px 0px 40px;
+}
+
+/* OTHER */
+
+.input {
+  margin: 0px 12px 12px 0px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px;
+  background-color: #eee;
+}
+
+.input-number {
+  margin: 0px 12px 12px 0px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px;
+  background-color: #eee;
+}
+
+.input-heading {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.textarea-style {
+  background-color: #ff00cc;
+  width: 420px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+}
+
+.listmarker {
+  list-style-type: none;
+}
+
+.labelname {
+  padding-left: 8px;
+  /* margin-bottom: 18px; */
+  font-size: 14px;
+  position: relative;
+  /* top: -4px; */
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.spinner-style {
+  margin: auto;
+}
+
+.read-list {
+  margin-top: -120px;
+}
+
+.toast-style {
+  background-color: darkgreen;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  position: 'relative';
+  width: 90px
+}
+
+@media only screen and (max-width: 736px) { 
+  .table-container { 
+    width: 710px;
+  }
+
+  .input {
+    width: 150px;
+  }
+
+  .input-heading {
+    width: 240px;
+  }
+
+}
+
+@media only screen and (max-width: 414px) { 
+
+  .tablelist-bg {
+    margin: 8px;
+  }
+
+  .input {
+    width: 160px;
+  }
+
+  .input-heading {
+    width: 270px;
+  }
+
+  .input-number {
+    width: 30px;
+  }
+
+  .table-container {
+    width: 390px;
+    margin: 8px 16px 0px 16px;
+  }
+
+  .listmarker {
+    list-style-type: none;
+    margin-left: 0px;
+  }
+
+}

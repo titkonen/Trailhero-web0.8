@@ -1,0 +1,87 @@
+.ml-16 {
+   margin-left: 16px;
+}
+
+.ml-40 {
+   margin-left: 40px;
+}
+
+.mt-40 {
+   margin-top: 40px;
+}
+
+
+.sorting-wrapper {
+   background-color: #fff;
+   border-radius: 8px;
+   margin: 0px 8px 8px 54px;
+   width: 868px;
+   padding: 8px;
+ }
+
+.drowdown-button-date {
+   padding: 0px 46px 0px 0px;
+}
+
+.drowdown-button-km {
+   padding: 0px 32px 0px 0px;
+}
+
+.drowdown-button-time {
+   padding: 0px 30px 0px 0px;
+}
+
+.drowdown-button-route {
+   padding: 0px 120px 0px 0px;
+}
+
+.drowdown-button-bikemodel {
+   padding: 0px 46px 0px 0px;
+}
+
+@media only screen and (max-width: 414px) {
+
+   .input-bikemodel-date {
+      margin: 0 20px 0 0;
+      width: 120px!important;
+   }
+
+   .input-bikemodel-km {
+      margin: 0 0px 0 20px;
+      width: 120px!important;
+   }
+
+   .input-bikemodel-mobile {
+      width: 340px!important;
+   }
+
+   .labelname-km {
+      padding-left: 20px;
+   }
+
+   .sorting-wrapper {
+      background-color: #fff;
+      margin: 12px 0px 8px 12px;
+    }
+
+    .drowdown-button-date {
+      padding: 0px 4px 0px 0px;
+   }
+
+   .drowdown-button-km {
+      padding: 0px 4px 0px 0px;
+   }
+
+   .drowdown-button-time {
+      padding: 0px 4px 0px 0px;
+   }
+
+   .drowdown-button-route {
+      padding: 0px 4px 0px 0px;
+   }
+
+   .drowdown-button-bikemodel {
+      padding: 0px 4px 0px 0px;
+   }
+
+}
